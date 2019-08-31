@@ -96,7 +96,7 @@ def changing_alan
      }
 
      alans_new_info = "GUI"
-programmer_hash.replace[:alan_kay][:known_for] = "GUI"
+programmer_hash["GUI"] = programmer_hash.delete("Object Orientation")
 end
 
 def adding_to_dennis

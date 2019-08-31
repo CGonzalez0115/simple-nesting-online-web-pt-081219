@@ -76,7 +76,7 @@ def adding_matz
         }
      }
 
-     programmer_hash = Hash.new do |h,k|
+     while programmer_hash = Hash.new do |h,k|
        h[k] = Hash.new(&hash.default_proc)
      end
      programmer_hash[:yukihiro_matsumoto][:known_for] = 'Ruby'

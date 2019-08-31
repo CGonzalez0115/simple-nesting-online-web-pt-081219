@@ -95,11 +95,10 @@ def changing_alan
         }
      }
 
-     alans_new_info = {"Object Orientation" => "GUI"}
-     alans_new_info.default_proc = ->(h, k) { k }
-     puts quote.gsub(/\w+/, alans_new_info)
-   end
- end
+alans_new_info = {"Object Orientation" => "GUI"}
+alans_new_info.default_proc = ->(h, k) { k }
+puts quote.gsub(/\w+/, alans_new_info)
+end
 
 def adding_to_dennis
 	programmer_hash =

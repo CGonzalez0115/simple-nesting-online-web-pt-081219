@@ -122,3 +122,4 @@ programmer_hash.each do |value|
   programmer_hash[:dennis_ritchie][:languages].include?("Assembly")
   programmer_hash
 end
+end

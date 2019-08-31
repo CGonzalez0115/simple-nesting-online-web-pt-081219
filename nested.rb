@@ -96,7 +96,7 @@ def changing_alan
      }
 
      alans_new_info = "GUI"
-     programmer_hash.update("Object Orientation") { | key, value| "GUI" * 2 }
+programmer_hash = programmer_hash.replace_value("Object Orientation", "GUI")
 end
 
 def adding_to_dennis

@@ -74,7 +74,7 @@ def adding_matz
           :languages => ["C"]
         }
     }
-  yukihiro = { {yukihiro_matsumoto: {known_for: "Ruby", languages: ["LISP", "C"]} } }
+  yukihiro = { { yukihiro_matsumoto: } }
   programmer_hash.deep_merge(yukihiro)
 end
 

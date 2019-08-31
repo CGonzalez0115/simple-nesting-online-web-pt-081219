@@ -96,7 +96,7 @@ def changing_alan
      }
 
      alans_new_info = "GUI"
-     programmer_hash.update(programmer_hash) { |:known_for, "Object Orientation"| "GUI" * 2 }
+     programmer_hash.update(programmer_hash) { | key, "Object Orientation"| "GUI" * 2 }
 end
 
 def adding_to_dennis

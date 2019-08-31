@@ -74,7 +74,7 @@ def adding_matz
           :known_for => "Unix",
           :languages => ["C"]
         }
-     }
+    }
      programmer_hash = Hash.new do |h,k|
        h[k] = Hash.new(&h.default_proc)
      end

@@ -119,4 +119,5 @@ def adding_to_dennis
      }
 programmer_hash[:dennis_ritchie][:languages][3] = "Assembly"
 programmer_hash[:alan_kay][:languages].include?("Assembly")
+programmer_hash
 end

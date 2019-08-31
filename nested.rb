@@ -79,6 +79,8 @@ def adding_matz
        h[k] = Hash.new()
        programmer_hash[:yukihiro_matsumoto][:known_for]
        programmer_hash[:yukihiro_matsumoto][:languages]
+
+programmer_hash
      end
    end
 

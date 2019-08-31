@@ -75,12 +75,12 @@ def adding_matz
           :languages => ["C"]
         }
     }
-     programmer_hash = Hash.new do |h,k|
-       h[k] = Hash.new(&h.default_proc)
-     end
-       programmer_hash[:yukihiro_matsumoto][:known_for]
-       programmer_hash[:yukihiro_matsumoto][:languages]
-     end
+    programmer_hash = Hash.new do |h,k|
+      h[k] = Hash.new(&h.default_proc)
+    end
+    programmer_hash[:yukihiro_matsumoto][:known_for]
+    programmer_hash[:yukihiro_matsumoto][:languages]
+  end
 
 def changing_alan
 	programmer_hash =

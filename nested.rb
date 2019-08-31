@@ -118,6 +118,7 @@ def adding_to_dennis
         }
      }
   if i.class == Array
-  programmer_hash[:dennis_ritchie][:languages] << "Assembly"
-  programmer_hash[:dennis_ritchie][:languages]
+    programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+    programmer_hash[:dennis_ritchie][:languages]
+  end
 end

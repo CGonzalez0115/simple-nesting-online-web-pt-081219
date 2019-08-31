@@ -96,7 +96,8 @@ def changing_alan
      }
 
      alans_new_info = "GUI"
-programmer_hash["GUI"] = programmer_hash.delete("Object Orientation")
+programmer_hash["GUI"] = programmer_hash["Object Orientation"]
+programmer_hash.delete("Object Orientation")
 end
 
 def adding_to_dennis

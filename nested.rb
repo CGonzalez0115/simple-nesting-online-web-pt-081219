@@ -97,7 +97,7 @@ def changing_alan
 
 alans_new_info = {"Object Orientation" => "GUI"}
 alans_new_info.default_proc = ->(h, k) { k }
-puts :known_for.gsub(/\w+/, alans_new_info)
+puts programmer_hash.gsub(/\w+/, alans_new_info)
 end
 
 def adding_to_dennis

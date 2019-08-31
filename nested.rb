@@ -74,8 +74,8 @@ def adding_matz
           :languages => ["C"]
         }
     }
-  yukihiro = { yukihiro_matsumoto: }
-  programmer_hash.deep_merge(yukihiro)
+  yukihiro = { yukihiro_matsumoto: {} }
+  programmer_hash.merge(yukihiro)
 end
 
 def changing_alan

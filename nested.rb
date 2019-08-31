@@ -76,10 +76,9 @@ def adding_matz
         }
      }
      programmer_hash = Hash.new do |h,k|
-       h[k] = Hash.new(&hash.default_proc)
-       programmer_hash[:yukihiro_matsumoto][:known_for] = 'Ruby'
-       programmer_hash[:yukihiro_matsumoto][:languages] = ["LISP", "C"]
-       puts programmer_hash[:yukihiro_matsumoto][:known_for][:languages]
+       h[k] = Hash.new()
+       programmer_hash[:yukihiro_matsumoto][:known_for]
+       programmer_hash[:yukihiro_matsumoto][:languages]
      end
    end
 

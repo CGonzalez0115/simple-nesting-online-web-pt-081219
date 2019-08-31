@@ -76,10 +76,8 @@ def adding_matz
     }
 
 programmer_hash = Hash.new do |h,k|
-  h[k] = Hash.new(&h.default_proc)
-end
-programmer_hash[:yukihiro_matsumoto][:known_for]
-programmer_hash[:yukihiro_matsumoto][:languages]
+  h[k] = Hash.new()
+  programmer_hash[:yukihiro_matsumoto]
 end
 
 def changing_alan

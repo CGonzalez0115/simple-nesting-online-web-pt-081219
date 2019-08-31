@@ -117,7 +117,8 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
+programmer_hash.each do |value|
 programmer_hash[:dennis_ritchie][:languages][3] = "Assembly"
-programmer_hash[:alan_kay][:languages].include?("Assembly")
+programmer_hash[:dennis_ritchie][:languages].include?("Assembly")
 programmer_hash
 end
